@@ -42,3 +42,20 @@ console.log(str);
 
 var num=100;
 console.log(`half of ${num} is ${num/2} `)
+
+
+//Redeclaration Of var is allowed -problem with Var
+var r=100;
+console.log(r);
+
+var r="Hello";
+console.log(r);
+
+//Let keyword
+let l=1000;
+console.log(l);
+
+let l="2000";
+console.log(l);
+//Output can be reinitialized but not re declared
+//SyntaxError: Identifier 'l' has already been declared
