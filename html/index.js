@@ -51,11 +51,28 @@ console.log(r);
 var r="Hello";
 console.log(r);
 
-//Let keyword
-let l=1000;
-console.log(l);
+// //Let keyword
+// let l=1000;
+// console.log(l);
 
-let l="2000";
-console.log(l);
+// let l="2000";
+// console.log(l);
 //Output can be reinitialized but not re declared
 //SyntaxError: Identifier 'l' has already been declared
+
+
+//Loops in javascript
+
+var num=10;
+for(var i=0;i<num;i++){
+    if(i%2 ==0){
+        console.log("num is even");
+    }
+    
+}
+
+//Const 
+const k=2;
+//const k=3; //SyntaxError: Identifier 'l' has already been declared
+k=4; // Assignment to constant variable.
+console.log(k);
