@@ -37,5 +37,8 @@ console.log(f);
 //single double and backtick
 var str='a';
 console.log(typeof str);
-str="How you doin";
+str="How you doin \n I'm fine";
 console.log(str);
+
+var num=100;
+console.log(`half of ${num} is ${num/2} `)
